@@ -1,0 +1,42 @@
+body{
+	background-color: #B6CEC7;
+	align: center;
+	padding: 100px;
+	width: 500px;
+	height: 500px;
+	margin: auto;
+	
+	
+}
+.flex-container{
+	width: 100%;
+	height: auto:;
+ 	
+}
+.flex-box{
+	width: 700px;
+	height: 800px;
+	background: gray;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 55px;
+
+}
+h1{
+	color: white;
+	margin: 20px auto;
+}
+p{
+	margin: 10px auto;
+	color: snow;
+	font-size: 20px; 
+}
+.ab{
+	padding: 0px auto;
+	margin: 50px auto;
+	display: block;
+	box-sizing: border-box;
+	border-radius: 50%;
+	border: 5px solid #2f4f4f;
+	
+}
