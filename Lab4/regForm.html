@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration Page</title>
+    <link rel="icon" type="image/x-icon" href="C:\Users\Mailine\Downloads\codebyters.jpg">
+    <link rel="stylesheet" href="styleReg.css">
+</head>
+<body>
+    <form action="home.html">
+        <div id="container">
+            <div id="logoArea">
+                <img src="C:\Users\Mailine\Downloads\codebyters-removebg-preview.png" alt="Logo">
+                <div class="nn">
+                <h3 >Registration</h3>
+                </div>
+            </div>
+            <section class="input-section">
+                <small>Personal Information</small>
+                <div class="groupField">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <label for="mname">Middle Name</label>
+                    <input type="text" id="mname" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <label for="Suffix">Select Suffix:</label>
+                    <select id="Suffix" autocomplete="off" required>
+                        <option>None</option>
+                        <option>Jr</option>
+                        <option>Sr</option>
+                        <option>I</option>
+                        <option>II</option>
+                        <option>III</option>
+                        <option>IV</option>
+                        <option>V</option>
+                    </select>
+                </div>
+                <div class="groupField">
+                    <label for="bdate">Birthdate:</label>
+                    <input type="date" id="bdate" autocomplete="off" required>
+                </div>
+            </section>
+            <section class="input-section">
+                <small>User Account Information</small>
+                <div class="groupField">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" autocomplete="off" required>
+                </div>
+                <div class="groupField">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" autocomplete="off" required>
+                </div>
+            </section>
+            <div id="buttonArea">
+                <button type="reset">Cancel</button>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

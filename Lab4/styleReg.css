@@ -1,0 +1,76 @@
+ body {
+    font: sans-serif;
+    background-color: #b0dfd2; /*  background color */
+    margin: 0;
+    padding: 20px;
+    
+}
+
+.nn{
+    font-size: 25px;
+}
+
+#container {
+    max-width: 450px;
+    margin: 50px auto; /* Center the container with top/bottom margin */
+    padding: 20px;
+    border: 2px solid #00796b; /* Thicker border for better visibility */
+    border-radius: 10px;
+    background: linear-gradient(#b4dbce, #438977 ); /* background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Soft shadow */
+}
+
+#logoArea {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#logoArea img {
+    width: 140px; /* Logo size */
+    height: auto;
+}
+
+.input-section {
+    margin-bottom: 20px;
+}
+
+.groupField {
+    margin-bottom: 15px;
+}
+
+.groupField label {
+    display: block;
+    margin-bottom: 6px;
+    color: black; /* labels */
+    font-weight: bold;
+}
+
+.groupField input,
+.groupField select {
+    width: 100%;
+    padding: 10px; /* Increased padding for better spacing */
+    border: 1px solid #00796b; /* border for inputs */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+#buttonArea {
+    text-align: center;
+}
+
+#buttonArea button {
+    background-color: #ace3d1; /*button */
+    color: black; /* black text */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#buttonArea button:hover {
+    background-color: #35977d; /* Darker  on hover */
+}
+
+    
