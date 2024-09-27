@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LogIn</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<script>
+		function Login() {
+			var correctUsername ="asd";
+			var correctPassword ="123";
+			var typeusername = document.getElementById("username").value;
+			var typepassword = document.getElementById("password").value;
+			var notifElement = document.getElementById("notif");
+			if(correctUsername==typeusername&&correctPassword==typepassword){
+				document.getElementById("notif").innerText="Login Successfully";
+				window.location="calculator.html";
+			}else{
+				document.getElementById("notif").innerText= "Login Failed. Please try again.";
+				Location.href="calculator.html";
+			}
+		} 
+	</script>
+
+<div class="wap">
+		<h1 align="center">LogIn</h1>
+		<p align="center">Username:  </p>
+		<input id="username" type="text">
+		
+		<p align="center"> Password</p>
+		<input id="password" type="password">
+		
+		<button class="dd" onclick="Login()" style="background-color: green; color: #fff">Login</button>
+		<p id="notif"></p>
+	</div>
+</body>
+</html>

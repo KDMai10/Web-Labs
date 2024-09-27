@@ -1,0 +1,28 @@
+body{
+	background: linear-gradient(gray, #2E3C47);
+	background-repeat: no-repeat;
+	background-attachment: fixed ;
+	
+}
+h1{
+	color: white;
+	padding-top: 50p x;
+}
+p{
+	color: white;
+	padding: 20px;
+}
+.wap{
+	border-color: grey;
+	border-width: 5px;
+	border-radius: 30px ;
+	height: 550px;
+	width: 350px;
+	margin:100px auto;
+	text-align:center;
+	background: #122739
+}
+
+.wrap input{
+	margin:auto;
+}
